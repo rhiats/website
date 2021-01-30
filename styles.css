@@ -53,8 +53,7 @@ body {
 }
 
 .portfolio-items-wrapper {
-  display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
+  display: block;
 }
 
 .portfolio-item-wrapper {
@@ -65,7 +64,7 @@ body {
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
-  height: 350px;
+  height: 185px;
   width: 100%;
 }
 
@@ -82,7 +81,7 @@ body {
   padding-right: 100px;
 }
 
-.img-text-wrapper .subtitle {
+.img-text-wrapper:hover .subtitle {
   transition: 1s;
   color: transparent;
 }
@@ -93,13 +92,8 @@ body {
 }
 
 .img-text-wrapper:hover .subtitle {
-  color: lightseagreen;
+  color: crimson;
   font-weight: 600;
-}
-
-.logo-wrapper img {
-  width: 50%;
-  margin-bottom: 20px;
 }
 
 .two-column-wrapper {
