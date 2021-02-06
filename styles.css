@@ -3,6 +3,35 @@ body {
   margin: 0px;
 }
 
+ul {
+  display: table;
+  margin: 0 auto;
+}
+
+.profile-content-wrapper h1 {
+  color: crimson;
+  font-size: 50px;
+}
+
+.profile-content-wrapper h2 {
+  font-size: 30px;
+  color: crimson;
+}
+
+.profile-content-wrapper h3 {
+  font-size: 30px;
+  color: crimson;
+}
+
+.profile-content-wrapper h4 {
+  font-size: 20px;
+  color: crimson;
+}
+
+.profile-content-wrapper p {
+  font-size: 16px;
+}
+
 .container {
   display: grid;
   grid-template-columns: 1fr;
@@ -110,8 +139,4 @@ body {
 
 .profile-content-wrapper {
   padding: 30px;
-}
-
-.profile-content-wrapper h1 {
-  color: crimson;
 }
