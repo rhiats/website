@@ -11,6 +11,7 @@ ul {
 .profile-content-wrapper h1 {
   color: crimson;
   font-size: 50px;
+  background-color: #E0E0E0
 }
 
 .profile-content-wrapper h2 {
@@ -30,6 +31,11 @@ ul {
 
 .profile-content-wrapper p {
   font-size: 16px;
+}
+
+.brand{
+  border-color: crimson;
+  border-style: outset;
 }
 
 .container {
