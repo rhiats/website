@@ -8,6 +8,10 @@ ul {
   margin: 0 auto;
 }
 
+.profile-content-wrapper div{
+  background-color: black
+}
+
 .profile-content-wrapper h1 {
   color: crimson;
   font-size: 50px;
