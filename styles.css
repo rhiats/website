@@ -15,7 +15,7 @@ ul {
 .profile-content-wrapper h1 {
   color: crimson;
   font-size: 50px;
-  background-color: black
+  background-color: gray
 }
 
 .profile-content-wrapper h2 {
@@ -26,7 +26,7 @@ ul {
 .profile-content-wrapper h3 {
   font-size: 30px;
   color: crimson;
-  background-color: black
+  background-color: gray
 }
 
 .profile-content-wrapper h4 {
