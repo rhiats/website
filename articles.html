@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang='en'>
+
+<head>
+  <meta charset='UTF-8'>
+  <title>Portfolio Homepage</title>
+  <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+  <script src="interact.js"></script>
+  <noscript>You need to enable JavaScript to view the full site.</noscript>
+</head>
+
+<body>
+
+	<div class="profile-content-wrapper">
+	  <center> <h1> Recent Projects </h1>
+	</div>
+  <div class="container">
+    <div class="nav-wrapper">
+      <div class="left-side">
+        <div class="nav-link-wrapper active-nav-link">
+          <a href="index.html">Home</a>
+        </div>
+
+		<div class="nav-link-wrapper">
+          <a href="articles.html">Articles</a>
+        </div>
+
+        <div class="nav-link-wrapper">
+          <a href="https://github.com/rhiats">Github</a>
+        </div>
+
+        <div class="nav-link-wrapper">
+          <a href="https://www.linkedin.com/in/rhia-singh-0a6668181">Linkedin</a>
+        </div>
+
+      </div>
+
+      <div class="right-side">
+        <div class="brand">
+          RHIA SINGH
+        </div>
+      </div>
+    </div>
+
+    <br><br><br>
+  </div>
+
+
+  <div class="article">
+    
+  </div>
+
+</body>
+
+<script>
+  const portfolioItems = document.querySelectorAll('.portfolio-item-wrapper');
+
+  portfolioItems.forEach(portfolioItem => {
+    portfolioItem.addEventListener('mouseover', () => {
+      console.log(portfolioItem.childNodes[1].classList)
+      portfolioItem.childNodes[1].classList.add('image-blur');
+    });
+
+    portfolioItem.addEventListener('mouseout', () => {
+      console.log(portfolioItem.childNodes[1].classList)
+      portfolioItem.childNodes[1].classList.remove('image-blur');
+    });
+  });
+
+</script>
+
+</html>
